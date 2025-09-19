@@ -17,10 +17,10 @@ export default function DiceRoller() {
 
   return (
     <div style={styles.container}>
-      <h2>🎲 Dice Roller</h2>
+      <h2> Dice Roller</h2>
       <div style={styles.diceBox}>
         {diceValue ? (
-          <span style={styles.diceNumber}>{diceValue}</span>
+          <span style={styles.diceNumber}>🎲 {diceValue}</span>
         ) : (
           <span style={styles.message}>Click to roll!</span>
         )}
